@@ -1,6 +1,6 @@
 {
   "name": "jquery.sparkline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fork jledoux/jquery.sparkline, Bugfix issue#50 #63",
   "main": "dist/jquery.sparkline.min.js",
   "repository": "https://github.com/j0sky/jquery.sparkline.git",
