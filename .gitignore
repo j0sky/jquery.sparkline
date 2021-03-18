@@ -2,3 +2,9 @@
 .*.sw[a-z]
 *.un~
 Session.vim
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/jquery.sparkline.iml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/vcs.xml
