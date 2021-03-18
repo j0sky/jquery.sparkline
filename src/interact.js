@@ -102,6 +102,8 @@
                  localX = this.currentPageX - offset.left,
                  localY = this.currentPageY - offset.top,
                  tooltiphtml, sp, i, result, changeEvent;
+            localX = Math.floor(localX) === -1 ? 0 : localX; // Fix issue #50 with subpixel rendering giving non-integer offset
+            localY = Math.floor(localY) === -1 ? 0 : localY;
             if (!this.over) {
                 return;
             }
