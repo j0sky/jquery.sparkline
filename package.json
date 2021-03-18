@@ -1,9 +1,17 @@
 {
-  "name": "jquery.sparkline",
-  "version": "1.0.2",
-  "description": "fork jledoux/jquery.sparkline, Bugfix issue#50 #63",
+  "name": "jquery-sparkline",
+  "version": "2.3.1",
+  "description": "jQuery Sparklines plugin: fork jledoux/jquery.sparkline, npm supported, Bugfix issue#50 #63",
+  "scripts": {
+    "build": "concat -o dist/jquery.sparkline.js src/header.js src/defaults.js src/utils.js src/simpledraw.js src/rangemap.js src/interact.js src/base.js src/chart-line.js src/chart-bar.js src/chart-tristate.js src/chart-discrete.js src/chart-bullet.js src/chart-pie.js src/chart-box.js src/vcanvas-base.js src/vcanvas-canvas.js src/vcanvas-vml.js src/footer.js ",
+    "postbuild": "uglifyjs dist/jquery.sparkline.js > dist/jquery.sparkline.min.js"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "uglify-js": "^3.1.7"
+  },
   "main": "dist/jquery.sparkline.min.js",
   "repository": "https://github.com/j0sky/jquery.sparkline.git",
   "author": "evgeniy <grishko@100sp.ru>",
-  "license": "MIT"
+  "license": "BSD-3"
 }
