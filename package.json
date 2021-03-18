@@ -11,7 +11,10 @@
     "uglify-js": "^3.1.7"
   },
   "main": "dist/jquery.sparkline.min.js",
-  "repository": "https://github.com/j0sky/jquery.sparkline.git",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/j0sky/jquery.sparkline.git"
+  },
   "author": "evgeniy <grishko@100sp.ru>",
   "license": "BSD-3"
 }

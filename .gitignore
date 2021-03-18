@@ -8,3 +8,4 @@ Session.vim
 /.idea/modules.xml
 /.idea/php.xml
 /.idea/vcs.xml
+/node_modules/
